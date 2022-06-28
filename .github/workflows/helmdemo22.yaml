@@ -10,6 +10,7 @@ env:
     CHART_OVERRIDE_PATH: ./helloworld-chart/values.yaml
     CHART_OVERRIDES: |4
         image.repository:nagabugbashacr.azurecr.io/helmdemoimage
+        image.tag:latest
     CHART_PATH: ./helloworld-chart
     CLUSTER_NAME: bugbashdemo-cluster
     CLUSTER_RESOURCE_GROUP: bugbashdemo-rg
